@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    
     .button {background-color: #4cf436;height: auto;} 
     .button2 {background-color: #368ff4;height: auto;} 
     .button3 {background-color: #f4e136;height: auto;} 
@@ -16,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 </head>
 
 
@@ -28,49 +27,49 @@
     </nav>
     <div class="grid">
         <div class="grid1">
-            <form action="http://127.0.0.1:5000/Mojito" method="POST" >
+            <form action="http://10.0.0.30:5000/Mojito" method="POST" >
                 <button class="button" type="submit">
                     Mojito
                 </button>
             </form>
         </div>
         <div class="grid2">
-            <form action="http://127.0.0.1:5000/Vodka" method="POST" >
+            <form action="http://10.0.0.30:5000/Vodka" method="POST" >
                 <button class="button button2" type="submit">
                     Vodka
                 </button>
             </form>
         </div>
         <div class="grid grid3">
-            <form action="http://127.0.0.1:5000/Piña_colada" method="POST" >
+            <form action="http://10.0.0.30:5000/Piña_colada" method="POST" >
                 <button class="button button3" type="submit">
                     Piña colada
                 </button>
             </form>
         </div>
         <div class="grid grid4">
-            <form action="http://127.0.0.1:5000/Izquierda" method="POST" >
+            <form action="http://10.0.0.30:5000/Izquierda" method="POST" >
                 <button class="button button4" type="submit">
                     Izquierda
                 </button>
             </form>
         </div>
         <div class="grid grid5">
-            <form action="http://127.0.0.1:5000/Arriba" method="POST" >
+            <form action="http://10.0.0.30:5000/Arriba" method="POST" >
                 <button class="button button5" type="submit">
                     Arriba
                 </button>
             </form>
         </div>
         <div class="grid grid6">
-            <form action="http://127.0.0.1:5000/Derecha" method="POST" >
+            <form action="http://10.0.0.30:5000/Derecha" method="POST" >
                 <button class="button button6" type="submit">
                     Derecha
                 </button>
             </form>
         </div>
         <div class="grid grid7">
-            <form action="http://127.0.0.1:5000/Stop" method="POST" >
+            <form action="http://10.0.0.30:5000/Stop" method="POST" >
                 <button class="button button7" type="submit">
                     Stop
                 </button>
