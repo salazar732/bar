@@ -30,8 +30,8 @@ def Izquierda():
             leds.led.led1.on()
       return redirect(url_for('index'))
 
-@app.route('/Ariba',methods=['POST'])
-def Ariba():
+@app.route('/Arriba',methods=['POST'])
+def Arriba():
       if request.method == 'POST':
             leds.led.led2.on()
       return redirect(url_for('index'))
